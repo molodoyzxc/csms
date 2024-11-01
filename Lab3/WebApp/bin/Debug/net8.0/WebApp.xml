@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApp</name>
+    </assembly>
+    <members>
+        <member name="M:WebApp.OrdersController.CreateOrder(WebApp.CreateOrderRequest)">
+            <summary>
+            Создает новый заказ.
+            </summary>
+            <param name="request">Данные заказа.</param>
+            <response code="200">Заказ успешно создан.</response>
+            <response code="400">Неверные данные заказа.</response>
+        </member>
+        <member name="M:WebApp.OrdersController.AddItemToOrder(System.Int64,WebApp.AddOrderItemRequest)">
+            <summary>
+            Добавляет товар в заказ.
+            </summary>
+            <param name="orderId">ID заказа.</param>
+            <param name="request">Данные товара.</param>
+            <response code="200">Товар успешно добавлен в заказ.</response>
+            <response code="400">Неверные данные.</response>
+        </member>
+        <member name="M:WebApp.OrdersController.RemoveItemFromOrder(System.Int64,System.Int64)">
+            <summary>
+            Удаляет товар из заказа.
+            </summary>
+            <param name="orderId">ID заказа.</param>
+            <param name="orderItemId">ID товара в заказе.</param>
+            <response code="200">Товар успешно удален из заказа.</response>
+            <response code="400">Неверные данные.</response>
+        </member>
+        <member name="M:WebApp.OrdersController.ChangeOrderStatus(System.Int64,WebApp.ChangeOrderStatusRequest)">
+            <summary>
+            Изменяет статус заказа.
+            </summary>
+            <param name="orderId">ID заказа.</param>
+            <param name="request">Новый статус заказа.</param>
+            <response code="200">Статус заказа успешно изменен.</response>
+            <response code="400">Неверные данные.</response>
+        </member>
+        <member name="M:WebApp.OrdersController.GetOrderHistory(System.Int64)">
+            <summary>
+            Получает историю заказа.
+            </summary>
+            <param name="orderId">ID заказа.</param>
+            <response code="200">Возвращает историю заказа.</response>
+        </member>
+        <member name="M:WebApp.OrdersController.GetOrderItems(System.Int64)">
+            <summary>
+            Получает товары в заказе.
+            </summary>
+            <param name="orderId">ID заказа.</param>
+            <response code="200">Возвращает товары в заказе.</response>
+        </member>
+        <member name="M:WebApp.ProductsController.CreateProduct(WebApp.CreateProductRequest)">
+            <summary>
+            Создает новый продукт.
+            </summary>
+            <param name="request">Данные продукта.</param>
+            <response code="200">Продукт успешно создан.</response>
+            <response code="400">Неверные данные продукта.</response>
+        </member>
+        <member name="M:WebApp.ProductsController.GetProducts(System.Int32,System.Int32,System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal})">
+            <summary>
+            Получает список продуктов.
+            </summary>
+            <param name="page">Номер страницы.</param>
+            <param name="pageSize">Размер страницы.</param>
+            <param name="nameFilter">Фильтр по названию продукта.</param>
+            <param name="minPrice">Минимальная цена продукта.</param>
+            <param name="maxPrice">Максимальная цена продукта.</param>
+            <response code="200">Возвращает список продуктов.</response>
+        </member>
+    </members>
+</doc>

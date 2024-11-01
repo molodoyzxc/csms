@@ -1,0 +1,135 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Library/1.0.0": {
+        "dependencies": {
+          "Itmo.Dev.Editorconfig": "1.0.7",
+          "SourceKit.Analyzers.Collections": "1.0.35",
+          "SourceKit.Analyzers.Enumerable": "1.0.35",
+          "SourceKit.Analyzers.MemberAccessibility": "1.0.31",
+          "SourceKit.Analyzers.Nullable": "1.0.35",
+          "SourceKit.Analyzers.Properties": "1.0.35",
+          "StyleCop.Analyzers": "1.2.0-beta.507"
+        },
+        "runtime": {
+          "Library.dll": {}
+        }
+      },
+      "Itmo.Dev.Editorconfig/1.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/Itmo.Dev.Editorconfig.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        }
+      },
+      "SourceKit/1.1.35": {},
+      "SourceKit.Analyzers.Collections/1.0.35": {
+        "dependencies": {
+          "SourceKit": "1.1.35"
+        }
+      },
+      "SourceKit.Analyzers.Enumerable/1.0.35": {
+        "dependencies": {
+          "SourceKit": "1.1.35"
+        }
+      },
+      "SourceKit.Analyzers.MemberAccessibility/1.0.31": {
+        "dependencies": {
+          "SourceKit": "1.1.35"
+        }
+      },
+      "SourceKit.Analyzers.Nullable/1.0.35": {
+        "dependencies": {
+          "SourceKit": "1.1.35"
+        }
+      },
+      "SourceKit.Analyzers.Properties/1.0.35": {
+        "dependencies": {
+          "SourceKit": "1.1.35"
+        }
+      },
+      "StyleCop.Analyzers/1.2.0-beta.507": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.507"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.507": {}
+    }
+  },
+  "libraries": {
+    "Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Itmo.Dev.Editorconfig/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gst9hC6VXG+x97jyn+Qv6Im+FNQrP5Jt5muQ7oAjAL5zJDjNqV4x+N+GJ4rZBuFEHi67na+lOu87Sv1Vgfc0VQ==",
+      "path": "itmo.dev.editorconfig/1.0.7",
+      "hashPath": "itmo.dev.editorconfig.1.0.7.nupkg.sha512"
+    },
+    "SourceKit/1.1.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7z2fiyOteWUvkyRkTdqZikWOoTyMZczAEpOWWxbVpGzhp9z7BosELbTbdfAtSOFpFLLMTPtf38IwlSYG8cC7MA==",
+      "path": "sourcekit/1.1.35",
+      "hashPath": "sourcekit.1.1.35.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.Collections/1.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wxVEYDSzwH5dPognqaNUvznhwMCry4UXuLib9TtcIX+MS5cMydIZFDJaD854IPUJVPhjy5py9UEvMkTvPdyxKA==",
+      "path": "sourcekit.analyzers.collections/1.0.35",
+      "hashPath": "sourcekit.analyzers.collections.1.0.35.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.Enumerable/1.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2MjRDlav+Sgl4svv9G67eCY3C0BcafNzYL2kFgIYiI3ERm/zAN0r2qMFXs7dExqek7kdn1+aSwt7TKhnxsOPiw==",
+      "path": "sourcekit.analyzers.enumerable/1.0.35",
+      "hashPath": "sourcekit.analyzers.enumerable.1.0.35.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.MemberAccessibility/1.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ri9M3YxJcTO8O64rjm1dXUAxM4otnaNFSSsXaPqrE7+coA02mq2qUY1hRFk0B95/CSkUQUvJR2sr+x2Vz0cDMw==",
+      "path": "sourcekit.analyzers.memberaccessibility/1.0.31",
+      "hashPath": "sourcekit.analyzers.memberaccessibility.1.0.31.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.Nullable/1.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aLBWUsmw5PDzkzls020zIPvOToAvTqvRBY5m1IQzSVaiS+W3etbIvD1/Dy0Jrwk78yesXx6hjZDhFUfuSzfEWg==",
+      "path": "sourcekit.analyzers.nullable/1.0.35",
+      "hashPath": "sourcekit.analyzers.nullable.1.0.35.nupkg.sha512"
+    },
+    "SourceKit.Analyzers.Properties/1.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+aRzUr9fMj2yP3B5wt7QN1TljtyT4jqgSzl6nAIJ0GMKvbD6XUOMM1qS7Msp6EO+pOJcpBXda+a6dwvu4+AKjw==",
+      "path": "sourcekit.analyzers.properties/1.0.35",
+      "hashPath": "sourcekit.analyzers.properties.1.0.35.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.2.0-beta.507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/FtugDT66cKJJ+GGH7rNpG6UDrT4iIWz45M6lrXXHobDUFDHw+q5VgkbiR+6ffTO564ge7w6fQh/eoQhVdJO8Q==",
+      "path": "stylecop.analyzers/1.2.0-beta.507",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.507.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gTY3IQdRqDJ4hbhSA3e/R48oE8b/OiKfvwkt1QdNVfrJK2gMHBV8ldaHJ885jxWZfllK66soa/sdcjh9bX49Tw==",
+      "path": "stylecop.analyzers.unstable/1.2.0.507",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.507.nupkg.sha512"
+    }
+  }
+}

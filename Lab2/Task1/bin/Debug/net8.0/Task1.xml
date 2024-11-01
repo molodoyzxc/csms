@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task1</name>
+    </assembly>
+    <members>
+        <member name="T:Refit.Implementation.Generated">
+            <inheritdoc />
+        </member>
+        <member name="T:Refit.Implementation.Generated.Task1IRefitConfigurationApi">
+            <inheritdoc />
+        </member>
+        <member name="P:Refit.Implementation.Generated.Task1IRefitConfigurationApi.Client">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.Task1IRefitConfigurationApi.#ctor(System.Net.Http.HttpClient,Refit.IRequestBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.Task1IRefitConfigurationApi.GetConfigurationsAsync(System.Int32,System.Nullable{System.Int64},System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:Refit.Implementation.Generated.Task1IRefitConfigurationApi.Task1#IRefitConfigurationApi#GetConfigurationsAsync(System.Int32,System.Nullable{System.Int64},System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

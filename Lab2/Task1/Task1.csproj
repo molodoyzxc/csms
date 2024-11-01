@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" />
+        <PackageReference Include="Refit"/>
+        <PackageReference Include="Refit.HttpClientFactory"/>
+        <PackageReference Include="System.Text.Json" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector"/>
+        <PackageReference Include="FluentAssertions"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+        <PackageReference Include="Moq"/>
+        <PackageReference Include="NUnit"/>
+        <PackageReference Include="NUnit.Analyzers"/>
+        <PackageReference Include="NUnit3TestAdapter"/>
+        <PackageReference Include="xunit"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="NUnit.Framework"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\Lab2\Task1\Task1.csproj"/>
+        <ProjectReference Include="..\..\src\Lab2\Task2\Task2.csproj"/>
+        <ProjectReference Include="..\..\src\Lab2\Task3\Task3.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Task2Tests\"/>
+    </ItemGroup>
+
+</Project>

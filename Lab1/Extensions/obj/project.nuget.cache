@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "pr85m+cInBM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\semen\\RiderProjects\\molodoyzxc\\src\\Lab1\\Extensions\\Extensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\semen\\.nuget\\packages\\itmo.dev.editorconfig\\1.0.7\\itmo.dev.editorconfig.1.0.7.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit\\1.1.35\\sourcekit.1.1.35.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.collections\\1.0.35\\sourcekit.analyzers.collections.1.0.35.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.enumerable\\1.0.35\\sourcekit.analyzers.enumerable.1.0.35.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.memberaccessibility\\1.0.31\\sourcekit.analyzers.memberaccessibility.1.0.31.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.nullable\\1.0.35\\sourcekit.analyzers.nullable.1.0.35.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\sourcekit.analyzers.properties\\1.0.35\\sourcekit.analyzers.properties.1.0.35.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.507\\stylecop.analyzers.1.2.0-beta.507.nupkg.sha512",
+    "C:\\Users\\semen\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.507\\stylecop.analyzers.unstable.1.2.0.507.nupkg.sha512"
+  ],
+  "logs": []
+}
